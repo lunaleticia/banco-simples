@@ -5,8 +5,7 @@ public class SimuladorBanco {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("********************************************");
-        System.out.println("Informações do Cliente:");
-        System.out.println(" ");
+        System.out.println("\nInformações do Cliente:");
 
         System.out.println("Nome: ");
         String nome = scanner.nextLine();
@@ -36,15 +35,12 @@ public class SimuladorBanco {
         int opcao = 0;
 
         while (opcao != 4) {
-            System.out.println(" ");
-            System.out.println("SERVIÇOS");
-            System.out.println(" ");
-            System.out.println("1- Consultar Saldos");
+            System.out.println("\nSERVIÇOS");
+            System.out.println("\n1- Consultar Saldos");
             System.out.println("2- Receber Valor");
             System.out.println("3- Transferir Valor");
             System.out.println("4- Sair");
-            System.out.println(" ");
-            System.out.println("Digite a opção desejada: ");
+            System.out.println("\nDigite a opção desejada: ");
 
             // Validar se a opção digitada é um número válido
             if (!scanner.hasNextInt()) {
